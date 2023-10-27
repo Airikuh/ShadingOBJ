@@ -184,9 +184,25 @@ class GraphicsEngine:
 
 
     def __init__(self):
+#With statue.obj
+#With UMD image
+        #self.wood_texture = Material("Texture/UMD.png")
+        #self.obj_mesh = Mesh("Model/statue.obj")
 
-        self.wood_texture = Material("Texture/UMD.png")
-        self.obj_mesh = Mesh("Model/statue.obj")
+#With AI image
+#With statue.obj
+        #self.wood_texture = Material("Texture/AI.jpg")
+        #self.obj_mesh = Mesh("Model/statue.obj")
+
+
+#With monkey.obj
+        #self.wood_texture = Material("Texture/UMD.png")
+        #self.obj_mesh = Mesh("Model/monkey.obj")
+
+#With monkey.obj
+        self.wood_texture = Material("Texture/AI.jpg")
+        self.obj_mesh = Mesh("Model/monkey.obj")
+
 
         #initialise opengl
         glClearColor(0.0, 0.0, 0.0, 1)
